@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    images: {
+      
+      domains: ['ph-files.imgix.net'], 
+    },
+  };
+  
+  export default nextConfig;
+  

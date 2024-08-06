@@ -1,6 +1,9 @@
 "use client";
 
 import PathComponent from "@/components/PathComponent";
+import PlanOptions from "@/components/PlanOptions";
+import Profiles from "@/components/Profiles";
+import SlideImage from "@/components/SlideImage";
 import VideoDubberComponent from "@/components/VideoDubberComponent";
 
 export default function Home() {
@@ -12,6 +15,11 @@ export default function Home() {
 
         <VideoDubberComponent />
 
+        <PlanOptions />
+
+        <SlideImage />
+        
+        {/* <Profiles /> */}
 
       </div>
     </div>
