@@ -13,8 +13,12 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      margin: {
+        '1/12': '8.333333%',
+      },
     },
   },
   plugins: [],
 };
+
 export default config;
